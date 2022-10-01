@@ -1,0 +1,149 @@
+:root {
+  --bg-color: #252630;
+
+  --border-color: #212224c2;
+  --font-color: #9b929b;
+
+  --bg-t-l_b-color: #302847B3;
+  --bg-t-r_t-colot: #FF6389A3;
+
+  --twitter: #6690ED;
+  --youtube: #E33551;
+  --instagram: #C65BE6;
+  --tiktok: #87a3a7;
+  --snapchat: #e6f145;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--bg-color);
+  font-family: var(--font-roboto-400);
+}
+
+.card-body {
+  width: 32rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  border-radius: 2rem;
+  
+  background: var(--bg-color-main);
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2rem 2rem 0 0;
+
+  background: linear-gradient(#302847B3, #FF6389A3);
+}
+.img {
+  width: 8rem;
+  height: 8rem;
+  background-color: #5e5f687c;
+  border: dashed #1a1919;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+.hero-info h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.hero-info p {
+  color: var(--font-color);
+  margin-bottom: 0.4rem;
+}
+
+.social {
+  background: linear-gradient(to left, #30323E, #2A2D37);
+
+  padding: 1rem;
+}
+
+.social-line {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+
+  margin: 1rem;
+}
+
+.social-circle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.twitter { background-color: var(--twitter); }
+
+.youtube { background-color: var(--youtube); }
+
+.instagram { background-color: var(--instagram); }
+
+.tiktok { background-color: var(--tiktok); }
+
+.snapchat { background-color: var(--snapchat); }
+
+.twitter, .youtube, .instagram, .tiktok, .snapchat {
+  margin-right: 2rem;
+}
+
+.s-info-area h1 {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0.6rem;
+}
+
+.s-info-area p {
+  color: var(--font-color);
+}
+
+.contact {
+  background: linear-gradient(to left, #302847B3, #FF6389A3);
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.email {
+  width: 18rem;
+  height: 3.6rem;
+  border-radius: 1rem;
+  background: #ffffff00;
+  border: 2px solid var(--border-color);
+  display: flex;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.email .circle {
+  width: 2.2rem;
+  height: 2.2rem;
+  background: #fcfcfc;
+  border-radius: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0.5rem 0 1.6rem 1.2rem;
+}
+
+.email span {
+  font-size: 1.2rem;
+  color: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 1rem 3.5rem;
+}
